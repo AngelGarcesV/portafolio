@@ -5,6 +5,8 @@ const Header = () => {
     return (
       <div
       style={{
+        width:"100vw",
+        position:"fixed",
         background:"#212529",
         top:0,
         display:"flex",
@@ -16,8 +18,9 @@ const Header = () => {
       >
 
 
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#skills">Skills</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
         

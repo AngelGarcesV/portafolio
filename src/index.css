@@ -21,16 +21,57 @@ a{
 }
 
 a:hover{
-  color: cornflowerblue;
+  color: #6495ed;
   
 }
 
 .aboutInfo{
+  
   padding: 1rem 2rem 1rem 2rem;
   background-color: #FFFFFF;
   width: 75%;
   font-size: 1.5rem;
   border-radius: .5rem;
   margin: 15% auto;
+  text-align: center;
   
+}
+
+.aboutInfo hr{
+  width: 75%;
+}
+#about{
+  background-image: url(./images/charlesdeluvio-Lks7vei-eAg-unsplash.jpg);
+  background-size: cover;
+}
+#home{
+  font-size: 1.5rem;
+}
+#home div{
+  width: 40%;
+}
+.skill{
+  width: 25%;
+}
+.skill p{
+  font-size: 1.2rem;
+}
+.fr{
+  text-align: center;
+}
+.FrameContainer{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.skill{
+  padding: 2rem 0 ;
+}
+.skill ul{
+  padding:2rem 0 ;
+}
+.skill li{
+  margin-top: .5rem;
+  font-size: 1.5rem;
 }
