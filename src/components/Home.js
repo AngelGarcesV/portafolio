@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import image from "../images/IMG_20230110_100056_696.jpg"
 
 const homeinfo ="a developer,System engineer student, and a pasionate of the tecnology, i also like the desing, listen to music and play games";
@@ -15,7 +14,7 @@ return(
         padding:"6% 0",
         }}>
         
-            <img src={image}
+            <img alt="me" src={image}
             style={{
                 width:"17%",
                 marginLeft:"10%",

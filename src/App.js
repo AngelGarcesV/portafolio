@@ -12,9 +12,6 @@ const siteProps = {
   github:"https://github.com/AngelGarcesV",
 }
 
-const primaryColor = "#212529";
-const SecondaryColor = "#F8F9FA"
-
 
 const App = () =>{
   return(
@@ -23,6 +20,7 @@ const App = () =>{
       <Home name={siteProps.name} title = {siteProps.title}/>
       <About/>
       <Skills/>
+      <Portfolio/>
       
     </div>
   );

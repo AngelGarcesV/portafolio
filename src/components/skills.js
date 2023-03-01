@@ -7,6 +7,7 @@ import imgTerminal from "../images/terminal.png";
 import imgPostgresql from "../images/Postgresql.png";
 import imgGitHub from "../images/github.png";
 import imgMongo from "../images/Mongo.png";
+import imgBoostrap from "../images/Bootstrap.png"
 const Languages =[
     "Java",
     "JavaScript",
@@ -30,7 +31,10 @@ const Frameworks = [
         name:"React",
         img: imgReact
     },
-    
+    {
+        name:"Bootstrap",
+        img: imgBoostrap
+    }
     
 ]
 const Tools = [
@@ -53,7 +57,8 @@ const Tools = [
     {
         name:"Postman",
         img:imgPostman
-    }
+    },
+
 
 ]
 
@@ -66,7 +71,7 @@ const Skills =()=>{
         }}>
             
             <div className="skill">
-                <h2 style={{textAlign:"center"}}>lANGUAGES</h2>
+                <h2 style={{textAlign:"center"}}>LANGUAGES</h2>
                 <ul style={{
                     textAlign: "left",
                     columns: 2,
@@ -88,7 +93,7 @@ const Skills =()=>{
                 <div className="FrameContainer">
                     {Frameworks.map((frame) =>(
                         <div className="fr">
-                            <img style={{
+                            <img alt={frame.name} style={{
                                     width:"5rem"
                                 }} src={frame.img}></img>
                             <p>{frame.name}</p>

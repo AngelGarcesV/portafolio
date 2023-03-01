@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
     return (
-      <div
+      <div id="header"
       style={{
         width:"100vw",
         position:"fixed",
@@ -21,7 +21,7 @@ const Header = () => {
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#">Portfolio</a>
+        <a href="#portfolio">Portfolio</a>
         <a href="#">Contact</a>
         
         
